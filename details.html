@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" />
+
+    <!-- Responsive -->
+    <link rel="stylesheet" href="style/responsive.css" />
+
+    <!-- OWL CSS -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>Netflix CLONE - House of Cards</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html"><h2 class="logo">NETFLIX</h2></a>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main id="info">
+        <div class="details-movie">
+            <div class="container">
+                <h3 class="title">House of Cards</h3>
+                <div class="description-detail">
+                    <p class="description">
+                        Com Frank fora da jogada, Claire Underwood pode exercer todo o seu poder como a primeira presidente mulher dos Estados Unidos. Mas poderosos inimigos estão a espreita.
+                    </p>
+                </div>
+                <div class="buttons">
+                    <button role="button" class="btn-white" onClick="play()">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="show">
+        <iframe width="100%" style="height: 100vh;" src="https://www.youtube.com/embed/kasvV-XyzqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/play.js"></script>
+</body>
+</html>

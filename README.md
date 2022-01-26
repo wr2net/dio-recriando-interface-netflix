@@ -7,4 +7,6 @@ Recrie a interface do principal site de streaming mundial utilizando tecnologias
 [![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge)](#)
 
 ![Capa Netflix Clone](cover/netflix-clone.png)
+![Capa Netflix Clone](cover/netflix-cover-details.png)
+![Capa Netflix Clone](cover/netflix-cover-play-movie.png)
 
